@@ -59,11 +59,11 @@
   --fontSize-1: 4.6rem;
   --fontSize-2: 4.5rem;
   --fontSize-3: 4rem;
-  --fontSize-4: 3rem;
+  --fontSize-4: 2.5rem;
   --fontSize-5: 2.4rem;
   --fontSize-6: 1.8rem;
   --fontSize-7: 2rem;
-  --fontSize-8: 1.6rem;
+  --fontSize-8: 1.7rem;
   --fontSize-9: 1.5rem;
   --fontSize-10: 1.4rem;
 
@@ -750,7 +750,14 @@ body.nav-active { overflow: hidden; }
 
 /*-----------------------------------*\
   #PROJECT
+  
 \*-----------------------------------*/
+
+
+
+
+
+
 
 .project-card .card-banner::before {
   top: 0;
@@ -1356,7 +1363,7 @@ textarea.input-field {
    * PROJECTS
    */
 
-  .slider-item { min-width: calc(33.33% - 20px); }
+  .slider-item { min-width: calc(25% - 20px); }
 
 
 
