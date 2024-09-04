@@ -490,6 +490,7 @@ body.nav-active { overflow: hidden; }
 .hero {
   position: relative;
   padding-block-start: 120px;
+ 
 }
 
 .hero .container {
@@ -938,6 +939,9 @@ textarea.input-field {
 
 
 
+
+
+
 /*-----------------------------------*\
   #CUSTOM CURSOR
 \*-----------------------------------*/
@@ -1363,7 +1367,7 @@ textarea.input-field {
    * PROJECTS
    */
 
-  .slider-item { min-width: calc(25% - 20px); }
+  .slider-item { min-width: calc(33.33% - 20px); }
 
 
 

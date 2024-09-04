@@ -1,0 +1,236 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="a.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+   
+</head>
+<body>
+    
+   
+    <header class="header" data-header>
+      <div class="container">
+  
+        <a href="#" class="logo">
+          <img src="./assets/images/logo.svg" width="84" height="20" alt="logo" style="height: 60px;">
+        </a>
+  
+        <nav class="navbar" data-navbar>
+  
+          <div class="navbar-top">
+            <a href="#" class="logo">
+              <img src="./assets/images/logo.svg" width="84" height="20" alt="logo">
+            </a>
+  
+            <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+              <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+            </button>
+          </div>
+  
+          <ul class="navbar-list">
+  
+            <li>
+              <a href="./index.html" class="navbar-link" data-nav-link data-i18n="home" style="font-size: 20px;">Home</a>
+            </li>
+  
+            <li>
+              <a href="./a.html" class="navbar-link" data-nav-link data-i18n="1" style="font-size: 20px;">Experience</a>
+            </li>
+  
+            <li>
+              <a href="./b.html" class="navbar-link" data-nav-link data-i18n="2" style="font-size: 20px;">Skills</a>
+            </li>
+  
+            <li>
+              <a href="./c.html" class="navbar-link" data-nav-link data-i18n="3" style="font-size: 20px;">Project</a>
+            </li>
+  
+  
+            <li>
+              <a href="./d.html" class="navbar-link" data-nav-link data-i18n="5" style="font-size: 20px;">Contact</a>
+            </li>
+  
+          </ul>
+  
+        </nav>
+  
+        <a  class="btn btn:hover">
+          
+          <button id="languageButton" class="btne "data-i18n="english" style="color: white;">EN</button>
+         
+        </a>
+  
+        <button class="nav-open-btn btn:hover" aria-label="open menu" data-nav-toggler>
+          <span class="line line-1"></span>
+          <span class="line line-2"></span>
+        </button>
+  
+        <div class="overlay" data-overlay data-nav-toggler></div>
+  
+      </div>
+    </header>
+          <!-- 
+        - #HERO
+      -->
+    <article>
+  <main>
+      <div class="hero text-center" id="intro">
+        <div class="container">
+
+          <div class="banner-outline has-after">
+
+            <div class="hero-banner img-holder has-after" style="--width: 500; --height: 680;" data-tilt>
+              <img src="images/ahmed.png" width="500" height="680" alt="Drew Hays" class="img-cover">
+            </div>
+
+            <span class="span title" >Ahmed Al-Zabr</span>
+
+          </div>
+
+          <div class="hero-content" style="text-align: start;">
+            <h1 class="h2 title">Ahmed Al-Zabr </h1>
+            <div class="job">
+                I'm <span class="text-gradient">
+                    Developer
+                </span>
+            </div>
+            <h1 class="h2 title"style="font-size: 30px;" > To secure a challenging position as a
+                Software Engineer, where I can
+                leverage my skills and expertise in
+                software development and
+                management,  </h1>
+           
+           <div class="wrapper">   
+              <a href="https://drive.google.com/file/d/1AAHPETzOTameNLU3LivAp0TNiL4HPiJ_/view?usp=sharing" class="btn btn:hover">
+                <span class="span">Download CV</span>
+
+                <ion-icon name="cloud-download-outline" aria-hidden="true"></ion-icon>
+              </a>
+
+              <p class="hero-text">
+                From device to cloud to edge Innovate from anywhere with secure
+              </p>
+            </div>
+
+          </div>
+
+          <img src="images/hero-shape-1.png" width="559" height="232" alt="shape" class="shape shape-1">
+
+          <img src="images/hero-shape-2.png" width="1358" height="497" alt="shape" class="shape shape-2">
+
+        </div>
+      </div>
+            <!-- 
+        - #CONTACT
+      -->
+
+      <section class="section contact" aria-label="contact me" id="contact">
+        <div class="container">
+
+          <h2 class="title h2 section-title"data-i18n="32">Get In Touch</h2>
+
+          <div class="contact-content">
+
+            <form action="https://api.web3forms.com/submit" method="POST" class="contact-form">
+              <input type="hidden" name="access_key" value="37bf4ea4-11dd-4636-9eae-3483d45cfc02">
+
+              <input type="text" name="name" placeholder="الاسم كامل" autocomplete="off" required class="input-field">
+
+              <input type="email" name="email_address" placeholder="الايميل" autocomplete="off" required
+                class="input-field">
+
+              <input type="phone" name="phone" placeholder="رقم الهاتف" autocomplete="off" class="input-field">
+               
+
+              <textarea name="message" placeholder="ادخل الرسالة" required class="input-field"></textarea>
+
+              <button type="submit" class="btn btn:hover">
+                <span class="span"data-i18n="33">Send Message</span>
+
+                <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+              </button>
+
+            </form>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2287.51751520018!2d44.19461868738204!3d15.369414089317821!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1603dbc1ad4950df%3A0x6d477a1e0b04c3a2!2z2LTYp9ix2Lkg2KfZhNmC2KfZh9ix2KnYjCDYtdmG2LnYp9ih4oCO2Iwg2KfZhNmK2Y7ZhdmO2YY!5e0!3m2!1sar!2s!4v1710065231574!5m2!1sar!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"class="map"></iframe>
+
+         
+
+            <ul class="contact-list">
+  
+              <li class="contact-item">
+
+                <div class="item-icon">
+                  <img src="./assets/images/contact-icon-1.png" width="50" height="50" loading="lazy"
+                    alt="contact icon">
+                </div>
+
+                <div>
+                  <span class="title h6"data-i18n="34">+697 771143849</span>
+
+                  <span class="title h6"data-i18n="38">+967 776402091</span>
+                </div>
+
+              </li>
+
+              <li class="contact-item">
+
+                <div class="item-icon">
+                  <img src="./assets/images/contact-icon-2.png" width="50" height="50" loading="lazy"
+                    alt="contact icon">
+                </div>
+
+                <div>
+                  <address class="title h6"data-i18n="35">
+                    Sanaa, Cairo Street
+                  </address>
+                </div>
+
+              </li>
+
+              <li class="contact-item">
+
+                <div class="item-icon">
+                  <img src="./assets/images/contact-icon-3.png" width="50" height="50" loading="lazy"
+                    alt="contact icon">
+                </div>
+
+                <div>
+                  <span class="title h6">info@sapsoftpro.com</span>
+
+                 
+                </div>
+
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+</body>
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</html>
+
+
+
